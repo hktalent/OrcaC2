@@ -1,7 +1,5 @@
 module Orca_Master
 
-go 1.18
-
 require (
 	github.com/4dogs-cn/TXPortMap v1.1.2
 	github.com/Binject/go-donut v0.0.0-20210701074227-67a31e2d883e
@@ -14,7 +12,7 @@ require (
 	github.com/schollz/progressbar/v3 v3.9.0
 	github.com/tj/go-spin v1.1.0
 	github.com/togettoyou/wsc v1.3.1
-	golang.org/x/image v0.0.0-20220722155232-062f8c9fd539
+	golang.org/x/image v0.10.0
 	gopkg.in/yaml.v2 v2.4.0
 	gorm.io/gorm v1.23.8
 )
@@ -63,8 +61,8 @@ require (
 	github.com/vcaesar/tt v0.20.0 // indirect
 	github.com/yusufpapurcu/wmi v1.2.2 // indirect
 	golang.org/x/crypto v0.0.0-20220131195533-30dcbda58838 // indirect
-	golang.org/x/net v0.0.0-20211112202133-69e39bad7dc2 // indirect
-	golang.org/x/sys v0.0.0-20220128215802-99c3d69c2c27 // indirect
-	golang.org/x/term v0.0.0-20210927222741-03fcf44c2211 // indirect
-	golang.org/x/text v0.3.7 // indirect
+	golang.org/x/net v0.6.0 // indirect
+	golang.org/x/sys v0.5.0 // indirect
+	golang.org/x/term v0.5.0 // indirect
+	golang.org/x/text v0.11.0 // indirect
 )
